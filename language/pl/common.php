@@ -5,7 +5,6 @@
  * @package phpBB Extension - Post Numbers
  * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * Russian translation by SouthKlad (http://southklad.ru/)
  *
  */
 
@@ -20,7 +19,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'POSTNUMBERS_COPY_TITLE'		=> 'Копировать ссылку  на сообщение в буфер обмена',
-	'POSTNUMBERS_COPY_MANUALLY'		=> 'Копировать в буфер обмена: Ctrl/Cmd+C, Enter',
-	'POSTNUMBERS_COPIED'			=> 'Скопировано!',
+	'POSTNUMBERS_COPY_TITLE'		=> 'Kopiuj link posta do schowka',
+	'POSTNUMBERS_COPY_MANUALLY'		=> 'Kopiuj do schowka: Ctrl/Cmd+C, Enter',
+	'POSTNUMBERS_COPIED'			=> 'Skopiowano link!',
 ));
